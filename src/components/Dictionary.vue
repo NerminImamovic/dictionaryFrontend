@@ -174,10 +174,4 @@ export default {
   -webkit-overflow-scrolling: touch;
 }
 
-@media only screen and (min-height: 800px) {
-  .show {
-    height: 500px;
-  }
-}
-
 </style>
