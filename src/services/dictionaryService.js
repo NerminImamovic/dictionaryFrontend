@@ -2,20 +2,18 @@ import http from "../http-common";
 
 class DictionaryService {
 
+    // Get All words
     getAllWords() {
         return http.get("/dictionary/words");
     }
 
+    // Get synonyms for certain word
     getSynonyms(word) {
         return http.get(`/dictionary/synonyms/${word}`);
     }
 
+    // Create synonyms
     createSynonyms(data) {
-
-        // console.log("Data " + JSON.stringify(data));
-
-        console.log("data" + JSON.stringify(data));
-
         return http.post(`/dictionary/createSynonyms`, data);
     } 
 
