@@ -3,7 +3,7 @@
       <div class="col-md-6">
         <h4>Words in dictionay:</h4>
         <li class="input-group mb-3">
-        <input type="text" id="newSynonymWord" class="form-control" placeholder="Search word"
+        <input type="text" id="search" class="form-control" placeholder="Search word"
           v-model="search" @keyup="searchWord" />
         <div class="input-group-append">
           <button class="btn btn-primary" type="button"
