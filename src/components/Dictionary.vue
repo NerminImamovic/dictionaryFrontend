@@ -166,6 +166,7 @@ export default {
       }
 
       this.newSynonymWord = "";
+      this.search = "";
     }
   },
   async mounted() {
