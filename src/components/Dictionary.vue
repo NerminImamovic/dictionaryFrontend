@@ -57,7 +57,7 @@
     <div class="col-md-12">
       <label for="newSynonymWord">Add synonyms separted by coma(,) - It is possible to connect with existing word writing with that word.</label>
       <div class="input-group mb-3">
-        <input type="text" id="newSynonymWord" class="form-control" placeholder="Add synonyms separted by coma(,) - It is possible to connect with existing word writing with that word."
+        <input type="text" id="newSynonymWord" class="form-control" placeholder="Add synonym(s)"
           v-model="newSynonymWord" @keyup.enter="addSynonymWords" />
         <div class="input-group-append">
           <button class="btn btn-primary" type="button"
